@@ -1,0 +1,11 @@
+const express = require('express');
+constante aplicación = express();
+puerto constante = 3000;
+
+aplicación.get('/apps.json', (req, res) => {
+res.sendFile(__dirname + '/kodi_repo_apps.json');
+});
+
+aplicación.listen(puerto, () => {
+console.log(`Servidor ejecutándose en http://localhost:${port}`);
+});
