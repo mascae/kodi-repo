@@ -1,29 +1,52 @@
 {
-"name": "Repo de Kodi de Mascae",
-"subtitle": "Apps para AltStore PAL",
-"description": "Una fuente personal para AltStore PAL, con apps hospedadas en GitHub Pages. Recuerda que solo se instalarán las apps que estén correctamente notarizadas por Apple.",
-"iconURL": "https://mascae.github.io/kodi-repo/images/mi_fuente_icon.png",
-"apps": [
-{
-"name": "Kodi Media Center",
-"bundleIdentifier": "org.xbmc.kodi",
-"developerName": "XBMC Foundation",
-"subtitle": "Un potente centro multimedia de código abierto.",
-"localizedDescription": "Kodi es un software de centro de entretenimiento multiplataforma gratuito y de código abierto, diseñado para el hogar digital y gestionado por la XBMC Foundation.",
-"iconURL": "https://mascae.github.io/kodi-repo/images/kodi_icon.png",
-"tintColor": "#2E86C1",
-"category": "entertainment",
-"versions": [
-{
-"version": "20.5",
-"date": "2024-07-24",
-"downloadURL": "https://mascae.github.io/kodi-repo/apps/kodi-20.5.ipa",
-"size": 150000000,
-"localizedDescription": "Versión 20.5 de Kodi 'Omega', una actualización para una mejor experiencia multimedia."
-// Si esta app fuera notarizada por Apple, aquí iría el assetURL:
-// "assetURL": "https://mascae.github.io/kodi-repo/apps/kodi.adp"
-}
-]
-}
-]
+  "name": "Mascae's AltStore PAL Source",
+  "identifier": "com.mascae.altstorepal.source",
+  "website": "https://github.com/mascae/kodi-repo",
+  "iconURL": "https://mascae.github.io/kodi-repo/icons/source_icon.png", // Asegúrate de crear esta carpeta y subir un icono para tu fuente
+  "apps": [
+    {
+      "name": "LiveContainer",
+      "bundleIdentifier": "com.tu_bundle_id_de_livecontainer.app", // *** MUY IMPORTANTE: Cambia esto por el Bundle ID REAL de tu aplicación LiveContainer ***
+      "developerName": "Mascae",
+      "subtitle": "Una herramienta avanzada para gestionar contenedores en iOS.",
+      "category": "Utilities",
+      "tintColor": "#6A5ACD", // Un color morado oscuro, puedes cambiarlo
+      "iconURL": "https://mascae.github.io/kodi-repo/icons/livecontainer_app_icon.png", // Asegúrate de crear esta carpeta y subir el icono de LiveContainer
+      "appPermissions": {
+        "privacy": [
+          {
+            "name": "Local Network",
+            "description": "Permite a LiveContainer comunicarse con dispositivos en tu red local para la gestión de contenedores."
+          },
+          {
+            "name": "Files and Storage",
+            "description": "Acceso a archivos para la importación/exportación de configuraciones o datos de contenedores."
+          },
+          {
+            "name": "Internet",
+            "description": "Conexión a internet para actualizaciones de contenido o descarga de recursos de contenedores."
+          }
+          // *** AÑADE AQUÍ CUALQUIER OTRO PERMISO QUE TU APP LIVECONTAINER SOLICITE REALMENTE ***
+          // Por ejemplo:
+          // { "name": "Camera", "description": "Acceso a la cámara para escanear códigos QR de configuración." },
+          // { "name": "Photos", "description": "Acceso a la galería de fotos para importar imágenes." }
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.0.0", // Versión actual de tu IPA de LiveContainer
+          "date": "2025-07-24", // Fecha actual
+          "localizedDescription": "Lanzamiento inicial de LiveContainer. Permite X, Y y Z. ¡Reporta cualquier error en GitHub!",
+          "downloadURL": "https://github.com/mascae/kodi-repo/releases/download/v1.0.0/LiveContainer_1.0.0.ipa", // *** MUY IMPORTANTE: Cambia esto por la URL REAL de tu IPA notarizado en GitHub Releases ***
+          "size": 50000000, // *** MUY IMPORTANTE: Cambia esto por el tamaño REAL en bytes de tu IPA ***
+          "screenshotURLs": [
+            "https://mascae.github.io/kodi-repo/screenshots/livecontainer_ss1.png", // URL de la captura 1
+            "https://mascae.github.io/kodi-repo/screenshots/livecontainer_ss2.png"  // URL de la captura 2
+            // Añade más URLs si tienes más capturas
+          ]
+        }
+        // Puedes añadir más versiones aquí en el futuro cuando actualices LiveContainer
+      ]
+    }
+  ]
 }
