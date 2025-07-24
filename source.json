@@ -2,7 +2,7 @@
   "name": "Mascae's AltStore PAL Source",
   "identifier": "com.mascae.altstorepal.source",
   "website": "https://github.com/mascae/kodi-repo",
-  "iconURL": "https://mascae.github.io/kodi-repo/icons/source_icon.png", // Asegúrate de crear esta carpeta y subir un icono para tu fuente
+  "iconURL": "https://mascae.github.io/kodi-repo/icons/source_icon.png",
   "apps": [
     {
       "name": "LiveContainer",
@@ -10,8 +10,8 @@
       "developerName": "Mascae",
       "subtitle": "Una herramienta avanzada para gestionar contenedores en iOS.",
       "category": "Utilities",
-      "tintColor": "#6A5ACD", // Un color morado oscuro, puedes cambiarlo
-      "iconURL": "https://mascae.github.io/kodi-repo/icons/livecontainer_app_icon.png", // Asegúrate de crear esta carpeta y subir el icono de LiveContainer
+      "tintColor": "#6A5ACD",
+      "iconURL": "https://mascae.github.io/kodi-repo/icons/livecontainer_app_icon.png",
       "appPermissions": {
         "privacy": [
           {
@@ -27,25 +27,20 @@
             "description": "Conexión a internet para actualizaciones de contenido o descarga de recursos de contenedores."
           }
           // *** AÑADE AQUÍ CUALQUIER OTRO PERMISO QUE TU APP LIVECONTAINER SOLICITE REALMENTE ***
-          // Por ejemplo:
-          // { "name": "Camera", "description": "Acceso a la cámara para escanear códigos QR de configuración." },
-          // { "name": "Photos", "description": "Acceso a la galería de fotos para importar imágenes." }
         ]
       },
       "versions": [
         {
-          "version": "1.0.0", // Versión actual de tu IPA de LiveContainer
-          "date": "2025-07-24", // Fecha actual
+          "version": "1.0.0",
+          "date": "2025-07-24",
           "localizedDescription": "Lanzamiento inicial de LiveContainer. Permite X, Y y Z. ¡Reporta cualquier error en GitHub!",
-          "downloadURL": "https://github.com/mascae/kodi-repo/releases/download/v1.0.0/LiveContainer_1.0.0.ipa", // *** MUY IMPORTANTE: Cambia esto por la URL REAL de tu IPA notarizado en GitHub Releases ***
+          "downloadURL": "https://mascae.github.io/kodi-repo/apps/LiveContainer_1.0.0.ipa", // *** ¡ACTUALIZADO AQUÍ! ***
           "size": 50000000, // *** MUY IMPORTANTE: Cambia esto por el tamaño REAL en bytes de tu IPA ***
           "screenshotURLs": [
-            "https://mascae.github.io/kodi-repo/screenshots/livecontainer_ss1.png", // URL de la captura 1
-            "https://mascae.github.io/kodi-repo/screenshots/livecontainer_ss2.png"  // URL de la captura 2
-            // Añade más URLs si tienes más capturas
+            "https://mascae.github.io/kodi-repo/screenshots/livecontainer_ss1.png",
+            "https://mascae.github.io/kodi-repo/screenshots/livecontainer_ss2.png"
           ]
         }
-        // Puedes añadir más versiones aquí en el futuro cuando actualices LiveContainer
       ]
     }
   ]
