@@ -35,7 +35,7 @@
           "date": "2025-07-24",
           "localizedDescription": "Lanzamiento inicial de LiveContainer. Permite X, Y y Z. ¡Reporta cualquier error en GitHub!",
           "downloadURL": "https://mascae.github.io/kodi-repo/apps/LiveContainer_1.0.0.ipa", // *** ¡ACTUALIZADO AQUÍ! ***
-          "size": 50000000, // *** MUY IMPORTANTE: Cambia esto por el tamaño REAL en bytes de tu IPA ***
+          "size": 2861,
           "screenshotURLs": [
             "https://mascae.github.io/kodi-repo/screenshots/livecontainer_ss1.png",
             "https://mascae.github.io/kodi-repo/screenshots/livecontainer_ss2.png"
