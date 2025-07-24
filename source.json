@@ -6,7 +6,7 @@
   "apps": [
     {
       "name": "LiveContainer",
-      "bundleIdentifier": "com.tu_bundle_id_de_livecontainer.app", // *** MUY IMPORTANTE: Cambia esto por el Bundle ID REAL de tu aplicación LiveContainer ***
+      "bundleIdentifier": "com.tu_bundle_id_de_livecontainer.app", 
       "developerName": "Mascae",
       "subtitle": "Una herramienta avanzada para gestionar contenedores en iOS.",
       "category": "Utilities",
@@ -26,16 +26,15 @@
             "name": "Internet",
             "description": "Conexión a internet para actualizaciones de contenido o descarga de recursos de contenedores."
           }
-          // *** AÑADE AQUÍ CUALQUIER OTRO PERMISO QUE TU APP LIVECONTAINER SOLICITE REALMENTE ***
         ]
       },
       "versions": [
         {
           "version": "1.0.0",
           "date": "2025-07-24",
-          "localizedDescription": "Lanzamiento inicial de LiveContainer. Permite X, Y y Z. ¡Reporta cualquier error en GitHub!",
-          "downloadURL": "https://mascae.github.io/kodi-repo/apps/LiveContainer_1.0.0.ipa", // *** ¡ACTUALIZADO AQUÍ! ***
-          "size": 2861,
+          "localizedDescription": "Lanzamiento inicial de LiveContainer. Esta versión permite la gestión de contenedores personalizados, importación/exportación de configuraciones y soporte experimental para nuevas arquitecturas. Se ha mejorado la estabilidad general y se han corregido errores menores. ¡Agradecemos cualquier comentario para futuras actualizaciones!", // <--- ASEGÚRATE QUE ESTO TIENE CONTENIDO REAL
+          "downloadURL": "https://mascae.github.io/kodi-repo/apps/LiveContainer_1.0.0.ipa",
+          "size": 50000000, 
           "screenshotURLs": [
             "https://mascae.github.io/kodi-repo/screenshots/livecontainer_ss1.png",
             "https://mascae.github.io/kodi-repo/screenshots/livecontainer_ss2.png"
